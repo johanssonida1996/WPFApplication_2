@@ -18,10 +18,10 @@
             <views:MessagesViewModel DataContext="{Binding}" />
         </DataTemplate>
         <DataTemplate x:Name="CalendarViewTemplate" DataType="{x:Type models:CalendarModel}">
-            <views:MessagesViewModel DataContext="{Binding}" />
+            <views:CalendarViewModel DataContext="{Binding}" />
         </DataTemplate>
         <DataTemplate x:Name="SettingViewTemplate" DataType="{x:Type models:SettingModel}">
-            <views:MessagesViewModel DataContext="{Binding}" />
+            <views:SettingViewModel DataContext="{Binding}" />
         </DataTemplate>
     </Window.Resources>
 
