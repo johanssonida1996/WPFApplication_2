@@ -42,10 +42,10 @@
         <Grid x:Name="mainMenu_Grid" Grid.Column="1" Background="#FF81A1D8">
             <StackPanel>
                 <Ellipse Width="100" Height="100" Fill="#FFFDF9F9" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,30,0,10"  />
-                <Label Content=" Firstname Lastname" HorizontalAlignment="Center" FontSize="14" Foreground="White" />
+                <Label Content=" Ida Johansson" HorizontalAlignment="Center" FontSize="14" Foreground="White" />
                 <Button x:Name="btnMessages" Click="btnMessages_Click" Background="Transparent" BorderThickness="0" FontSize="17" HorizontalAlignment="Left" Margin="0,330,0,0" Padding="5,10,0,10" Foreground="White" >
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE715;" FontSize="18" Padding="0,3" />
+                        <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE715;" FontSize="18" Padding="0,3,0,0" />
                         <TextBlock Margin="10,0,0,0" Text="Messages" />
                     </StackPanel>
                 </Button>

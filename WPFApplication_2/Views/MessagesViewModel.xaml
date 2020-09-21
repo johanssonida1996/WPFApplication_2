@@ -13,7 +13,7 @@
         </Grid.ColumnDefinitions>
 
         <StackPanel Grid.Column="0">
-            <Label Content="Messages" HorizontalAlignment="Left" Margin="20,39,20,39" FontSize="18" FontWeight="Normal" FontFamily="Arial Rounded MT Bold"   />
+            <Label Content="Messages" HorizontalAlignment="Left" Margin="20,39,20,39" FontWeight="Bold" FontFamily="Bookman Old Style" FontSize="18"  />
             <Controls:MessagesControl MessagesName="Exampel1@gmail.com" MessagesInfo="Hello, I want to...." MessagesImage="/Views/message-app-icon-7.jpg" />
             <Controls:MessagesControl MessagesName="Exampel2@gmail.com" MessagesInfo="Hello, I want to...." MessagesImage="/Views/message-app-icon-7.jpg" />
             <Controls:MessagesControl MessagesName="Exampel3@gmail.com" MessagesInfo="Hello, I want to...." MessagesImage="/Views/message-app-icon-7.jpg" />

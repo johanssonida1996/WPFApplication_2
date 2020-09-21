@@ -7,13 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Views\calendar-icon.png" />
     <None Remove="Views\kontakt_ikon.jpg" />
     <None Remove="Views\message-app-icon-7.jpg" />
+    <None Remove="Views\settings-icon-white-on-the-blue-background-vector-3452253.jpg" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Views\calendar-icon.png" />
     <Resource Include="Views\kontakt_ikon.jpg" />
     <Resource Include="Views\message-app-icon-7.jpg" />
+    <Resource Include="Views\settings-icon-white-on-the-blue-background-vector-3452253.jpg" />
   </ItemGroup>
 
 </Project>
